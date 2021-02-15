@@ -1,0 +1,133 @@
+.contact-container .contact-container-top {
+    width: 70%;
+    margin: 0 15%;
+    color: whitesmoke;
+    /* padding-bottom: 30px; */
+    font-family: "Baloo Paaji 2", cursive;
+}
+.contact-container .contact-container-block {
+    background-color: #5a3120;
+}
+.contact-number, .contact-email{
+    display: flex;
+}
+.contact-number .contact-number-heading, .contact-email .contact-email-heading{
+    flex: 1 0 50%;
+    text-align: left;;
+}
+.contact-number .contact-number-tel, .contact-email .contact-email-email{
+    flex: 1 0 50%;
+    text-align: right;
+}
+.contact-container h2 {
+    text-align: center;
+    padding-bottom: 20px;
+    color: #fff;
+}
+.contact-container p {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+}
+.contact-container a {
+  margin-top: 10px;
+  color: #fff;
+}
+
+.contact-container .info{
+    display: flex;
+}
+
+.contact-container .information-left{
+    flex: 1 0 35%;
+}
+
+.contact-container .information-left img{
+    height: auto;
+}
+
+.contact-container .information {
+    flex: 2 0 65%;
+}
+
+.contact-container .information .required {
+    color : #ff0404;
+}
+
+.information .information-inner{
+    padding: 40px;
+    background-color: #fff;
+    border: 1px solid #f3f0f0;
+}
+
+.information .fname, .information .lname, .information .email, .information .phoneNumber, .information .reasons, .information .query{
+    display: flex;
+    padding: 5px;
+}
+
+.information .fname .fname-label, .information .lname .lname-label, .information .email .email-label, .information .phoneNumber .phoneNumber-label, .information .reasons .reasons-label, .information .query .query-label{  
+    flex: 1 0 50%;
+    font-size: 1rem;
+}
+.information .fname .fname-input, .information .lname .lname-input, .information .email .email-input, .information .phoneNumber .phoneNumber-input, .information .reasons .reasons-select, .information .query .query-textarea{  
+    flex: 1 0 50%;
+    border: 0;
+    border: 1px solid #5a3120;
+    padding: 5px;
+    font-size: 0.95rem;
+}
+.information .submit-container{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.information .submit-contact{
+    background-color: #fff;
+    border-radius: 15px;
+    border: 2px solid #148ba8;
+    padding: 10px;
+    font-size: 1.2rem;
+    margin-top: 18px;
+}
+.information .submit-contact:hover{
+    background-color: #148ba8;
+    color:#fff;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+@media only screen and (max-width: 768px){
+    .contact-number, .contact-email{
+        display: block;
+    }
+    .contact-container .info{
+        display: block;
+    }
+    .information .fname, .information .lname, .information .email, .information .phoneNumber, .information .reasons, .information .query{
+        display: block;
+    }
+    .information .fname .fname-label, .information .lname .lname-label, .information .email .email-label, .information .phoneNumber .phoneNumber-label, .information .reasons .reasons-label, .information .query .query-label{  
+        width: 100%;
+    }
+    .information .fname .fname-input, .information .lname .lname-input, .information .email .email-input, .information .phoneNumber .phoneNumber-input, .information .reasons .reasons-select, .information .query .query-textarea{  
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 1024px){
+    .contact-number, .contact-email{
+        display: block;
+    }
+    .contact-container .info{
+        display: block;
+    }
+    .information .fname, .information .lname, .information .email, .information .phoneNumber, .information .reasons, .information .query{
+        display: block;
+    }
+    .information .fname .fname-label, .information .lname .lname-label, .information .email .email-label, .information .phoneNumber .phoneNumber-label, .information .reasons .reasons-label, .information .query .query-label{  
+        width: 100%;
+    }
+    .information .fname .fname-input, .information .lname .lname-input, .information .email .email-input, .information .phoneNumber .phoneNumber-input, .information .reasons .reasons-select, .information .query .query-textarea{  
+        width: 100%;
+    }
+}

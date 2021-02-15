@@ -1,0 +1,68 @@
+.clearfix{
+    clear: both;
+}
+.about-section{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.about-container h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.about-container p{
+    text-align: justify;
+    font-family: 'Baloo Paaji 2', cursive;
+}
+
+.whyUs{
+    margin-top:  3%;
+    margin-bottom: 3%;
+
+}
+.whyUs h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.whyus-container{
+    display: flex;
+}
+
+#whyUs1, #whyUs2 , #whyUs3{
+    flex: 1 0 33%;
+}
+#whyUs1 img , #whyUs2 img , #whyUs3 img{
+    height: 250px;
+    width: auto;
+    padding-left: 10px;
+}
+
+#whyUs1 .whyUs1-inside, #whyUs2 .whyUs2-inside, #whyUs3 .whyUs3-inside{
+    margin: 10px;
+    border: 1px solid #d6d6d6;
+}
+
+#whyUs1 .whyUs1-inside h3, #whyUs2 .whyUs2-inside h3, #whyUs3 .whyUs3-inside h3{
+    font-size: 1.35rem;
+    padding: 15px;
+}
+
+#whyUs1 p, #whyUs2 p, #whyUs3 p{
+    display: block;
+    padding: 15px;
+    text-align: justify;
+    font-family: 'Baloo Paaji 2', cursive;
+}
+
+@media only screen and (max-width: 768px){
+    .whyus-container{
+        display: block;
+    }
+}
+@media only screen and (max-width: 1024px){
+    .whyus-container{
+        display: block;
+    }
+}
